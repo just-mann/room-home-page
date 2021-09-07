@@ -28,7 +28,7 @@ a {
   color: #3e52a3;
 }
 
-@media (min-width: 87.5rem) {
+@media (min-width: 64rem) {
   .topSection {
     position: relative;
     min-height: 37.4375rem;

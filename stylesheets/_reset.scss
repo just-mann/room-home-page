@@ -14,9 +14,11 @@ body {
     font-size: $bodyFontSize;
 }
 
-.attribution { 
-    background-color: $lightGray;
-    padding: 1rem 0;
+a {
+    text-decoration: none;
+}
+
+.attribution {
     text-align: center;
     font-size: 15px; 
     text-align: center;

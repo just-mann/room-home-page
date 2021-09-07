@@ -1,0 +1,49 @@
+@import 'mixins';
+
+
+@include breakpoints-desktop(xlarge) {
+    
+    // 
+    .bottomSection {
+        display: grid;
+        min-height: 20.625rem;
+        grid-template-columns: 2.5fr 3fr 2.5fr;
+
+        .aboutDark {
+            min-height: 100%;
+            // width: 26.1875rem;
+            background: url('/images/image-about-dark.jpg') no-repeat center center / cover;
+        }
+
+        .aboutOur {
+            min-height: 100%; 
+            padding: 6.4375rem 3rem; 
+            
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 0.3125rem;
+                font-family: $primaryFont;
+                font-size: 1.0425rem;
+                margin-bottom: 1.1875rem;
+            }
+
+            p {
+                width: 31.9375rem;
+                font-size: 0.85rem;
+                font-family: $primaryFont;
+                line-height: 1.7rem;
+            }
+        }
+
+        .aboutLight {
+            min-height: 100%;
+            background: url('/images/image-about-light.jpg') no-repeat center center / cover;
+        }
+    }
+
+
+
+
+
+
+}

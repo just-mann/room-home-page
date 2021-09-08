@@ -1,7 +1,7 @@
 @import 'mixins';
 
 
-@include breakpoints-desktop(large) {
+// @include breakpoints-desktop(large) {
     // 
     .topSection {
         position: relative;
@@ -137,7 +137,7 @@
             }
         }
     }
-}
+// }
 
 
 // Mobile View

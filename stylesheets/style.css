@@ -28,136 +28,152 @@ a {
   color: #3e52a3;
 }
 
-@media (min-width: 64rem) {
-  .topSection {
-    position: relative;
-    min-height: 37.4375rem;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .topSection .header {
-    padding: 3.75rem 3.9375rem;
-    min-height: 100%;
-    width: 57%;
-    background: url("/images/desktop-image-hero-1.jpg") no-repeat center center/cover;
-  }
-  .topSection .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .topSection .header__nav .myLogo {
-    margin-right: 4.75rem;
-  }
-  .topSection .header__nav__links {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .topSection .header__nav__links a {
-    position: relative;
-    font-family: "Spartan", sans-serif;
-    font-size: 1rem;
-    text-transform: lowercase;
-    color: white;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  .topSection .header__nav__links a:not(:last-child) {
-    margin-right: 2rem;
-  }
-  .topSection .header__nav__links a::after {
-    content: "";
-    position: absolute;
-    top: 27px;
-    left: 50%;
-    -webkit-transform: translate(-50%);
-            transform: translate(-50%);
-    background: white;
-    height: 3px;
-    border-radius: 10000px;
-    width: 27px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    display: none;
-  }
-  .topSection .header__nav__links a:hover::after {
-    display: block;
-  }
-  .topSection .header .sliderButtons {
-    position: absolute;
-    bottom: 0;
-    right: 27.8rem;
-    width: 12.499rem;
-    height: 5.0625rem;
-    background-color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .topSection .header .sliderButtons span {
-    cursor: pointer;
-    height: 100%;
-    width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  .topSection .header .sliderButtons span:hover {
-    background-color: #454545;
-  }
-  .topSection .intro {
-    min-height: 100%;
-    width: 43%;
-    margin: auto;
-  }
-  .topSection .intro__container {
-    margin: 5.5625rem 6.1875rem;
-  }
-  .topSection .intro__container h3 {
-    font-family: "Spartan", sans-serif;
-    font-size: 2.4375rem;
-    margin-bottom: 1.6875rem;
-  }
-  .topSection .intro__container p {
-    font-family: "Spartan", sans-serif;
-    font-size: 0.85rem;
-    color: #a1a1a1;
-    line-height: 1.6rem;
-    width: 29.5rem;
-    margin-bottom: 1.975rem;
-  }
-  .topSection .intro__container .shopNow {
-    font-family: "Spartan", sans-serif;
-    letter-spacing: 0.625rem;
-    color: black;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  .topSection .intro__container .shopNow img {
-    width: 2.75rem;
-    margin-left: 2.6875rem;
-  }
-  .topSection .intro__container .shopNow:hover {
-    opacity: 0.3;
-  }
+.topSection {
+  position: relative;
+  min-height: 37.4375rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topSection .header {
+  padding: 3.75rem 3.9375rem;
+  min-height: 100%;
+  width: 57%;
+  background: url("/images/desktop-image-hero-1.jpg") no-repeat center center/cover;
+}
+
+.topSection .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topSection .header__nav .myLogo {
+  margin-right: 4.75rem;
+}
+
+.topSection .header__nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topSection .header__nav__links a {
+  position: relative;
+  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  text-transform: lowercase;
+  color: white;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.topSection .header__nav__links a:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.topSection .header__nav__links a::after {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background: white;
+  height: 3px;
+  border-radius: 10000px;
+  width: 27px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  display: none;
+}
+
+.topSection .header__nav__links a:hover::after {
+  display: block;
+}
+
+.topSection .header .sliderButtons {
+  position: absolute;
+  bottom: 0;
+  right: 27.8rem;
+  width: 12.499rem;
+  height: 5.0625rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topSection .header .sliderButtons span {
+  cursor: pointer;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.topSection .header .sliderButtons span:hover {
+  background-color: #454545;
+}
+
+.topSection .intro {
+  min-height: 100%;
+  width: 43%;
+  margin: auto;
+}
+
+.topSection .intro__container {
+  margin: 5.5625rem 6.1875rem;
+}
+
+.topSection .intro__container h3 {
+  font-family: "Spartan", sans-serif;
+  font-size: 2.4375rem;
+  margin-bottom: 1.6875rem;
+}
+
+.topSection .intro__container p {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.85rem;
+  color: #a1a1a1;
+  line-height: 1.6rem;
+  width: 29.5rem;
+  margin-bottom: 1.975rem;
+}
+
+.topSection .intro__container .shopNow {
+  font-family: "Spartan", sans-serif;
+  letter-spacing: 0.625rem;
+  color: black;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.topSection .intro__container .shopNow img {
+  width: 2.75rem;
+  margin-left: 2.6875rem;
+}
+
+.topSection .intro__container .shopNow:hover {
+  opacity: 0.3;
 }
 
 @media (max-width: 39.9375em) {
